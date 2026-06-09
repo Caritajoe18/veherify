@@ -1,0 +1,30 @@
+{
+  "name": "veherify",
+  "version": "1.0.0",
+  "description": "verify with hbar token",
+  "keywords": [
+    "typescript-web-scrapper"
+  ],
+  "homepage": "https://github.com/Caritajoe18/veherify#readme",
+  "bugs": {
+    "url": "https://github.com/Caritajoe18/veherify/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Caritajoe18/veherify.git"
+  },
+  "license": "ISC",
+  "author": "carita",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@hashgraph/hedera-agent-kit": "^4.0.0",
+    "@hashgraph/hedera-agent-kit-langchain": "^1.0.0",
+    "@hiero-ledger/sdk": "^2.84.0",
+    "@langchain/openai": "^1.4.7",
+    "dotenv": "^17.4.2"
+  }
+}
